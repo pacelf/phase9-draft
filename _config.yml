@@ -1,0 +1,63 @@
+title: "Research project website starter"
+description: "A JCU-themed static website for research project communications."
+url: "https://jcu-eresearch.github.io"
+baseurl: "/jcu-research-website-starter"
+
+remote_theme: jcu-eresearch/jcu-research-website-theme
+
+plugins:
+  - jekyll-remote-theme
+
+markdown: kramdown
+kramdown:
+  input: GFM
+
+defaults:
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "page"
+
+# Optional theme overrides.
+# Leave these commented to use the theme defaults. Uncomment only the settings you want to change.
+#
+theme_settings:
+#   show_breadcrumbs: true
+   logo: "/assets/images/jcu-logo-mono.svg"
+#   favicon: "/assets/images/favicon.svg"
+   logo_alt: "James Cook University"
+   project_logo: "/assets/sample-images/project-logo.svg"
+   project_logo_alt: "Project logo"
+   sidebar_logo_tile_background: "transparent"
+   sidebar_logo_tile_border_color: "transparent"
+   sidebar_project_logo_tile_background: "transparent"
+   sidebar_project_logo_tile_border_color: "transparent"
+#   font_family: "Lato, Inter, Arial, Helvetica, sans-serif"
+#   heading_font_family: "Lato, Inter, Arial, Helvetica, sans-serif"
+#   primary_color: "#005EB8"
+#   secondary_color: "#00857A"
+#   accent_color: "#F6C643"
+#   text_color: "#344054"
+#   heading_color: "#344054"
+#   muted_text_color: "#667085"
+#   background_color: "#FFFFFF"
+#   surface_color: "#F8FAFC"
+#   secondary_background_color: "#DCDAC3"
+#   secondary_background_opacity: "0.5"
+#   border_color: "#D0D5DD"
+#   table_banded_rows: true
+#   block_separator_style: "none"
+#   landing_block_separators: false
+#   partner_logo_tile_background: "transparent"
+#   partner_logo_max_height: "6rem"
+#   partner_logo_max_items_per_row: 3
+#   image_gallery_max_items_per_row: 3
+#   page_card_columns: 3
+#   page_card_link_text: "Read more"
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - SAMPLE_CONTENT.md
