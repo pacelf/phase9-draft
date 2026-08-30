@@ -1,7 +1,7 @@
 title: "PacELF Digital Library"
 description: "Our goal is to assist in achieving and documenting the elimination of lymphatic filariasis in the Pacific Region. We contribute to this by collating, synthesizing, and disseminating information on filariasis in the Pacific, in published or unpublished papers and reports, with a focus on the PacELF period from 1999 up to the end of 2020."
-url: "https://pacelf.github.io/phase9-draft"
-baseurl: ""
+url: "https://pacelf.github.io"
+baseurl: "/phase9-draft"
 
 remote_theme: jcu-eresearch/jcu-research-website-theme
 
