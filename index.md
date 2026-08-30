@@ -3,56 +3,62 @@ layout: full-width
 title: Home
 permalink: /
 hero:
-  eyebrow: "JCU research project"
-  title: "Research with purpose, shared with clarity"
-  lead: "A professional landing page for communicating research aims, people, projects, impacts, news, and partnerships."
-  image: "/assets/sample-images/tropical-research-landscape.jpg"
+  eyebrow: "A WHO Collaborating Centre for Vectorborne and Neglected Tropical Diseases project project"
+  title: "The PacELF Endgame Project and Digital Library"
+  lead: "Our goal is to assist in achieving and documenting the elimination of lymphatic filariasis in the Pacific Region."
+  image: "/assets/images/pacelf_logo.png"
   image_alt: "Researchers surveying a tropical rainforest coastline"
   actions:
-    - label: "Explore our research"
-      url: "#our-research"
+    - label: "Explore the library"
+      url: "#library"
     - label: "Contact us"
       url: "/contact/"
-achievements:
-  eyebrow: "Achievements"
-  title: "Progress at a glance"
-  lead: "Use these tiles for project milestones, impact metrics, outputs, or key facts."
-  items:
-    - value: "12"
-      label: "Active studies"
-      text: "Research activities underway with communities, partners, and collaborators."
-    - value: "36"
-      label: "Project outputs"
-      text: "Reports, datasets, presentations, resources, and peer-reviewed publications."
-    - value: "8"
-      label: "Partner groups"
-      text: "Organisations contributing expertise, knowledge, data, and practical support."
-carousel:
-  eyebrow: "Gallery"
-  title: "Research in context"
-  lead: "Use the carousel for fieldwork images, project locations, lab work, community activities, or visual summaries."
-  items:
-    - image: "/assets/sample-images/rainforest-fieldwork.jpg"
-      image_alt: "Researchers collecting water samples in a rainforest creek"
-      caption: "Fieldwork in tropical environments"
-    - image: "/assets/sample-images/laboratory-analysis.jpg"
-      image_alt: "Researchers analysing environmental samples in a laboratory"
-      caption: "Laboratory analysis and research data"
-    - image: "/assets/sample-images/community-workshop.jpg"
-      image_alt: "Researchers and community partners discussing a map"
-      caption: "Community partnerships and knowledge exchange"
-landing_sections:
-  - title: "Our research"
+blocks:
+  - type: "achievements"
+    eyebrow: "Achievements"
+    title: "Progress at a glance"
+    lead: ""
+    items:
+      - value: "6"
+        label: "Classified as non endemic"
+        text: "PacELF countries classified as non endemic in 2000 were Guam, Nauru, Northern Mariana Islands, Pitcairn Island, Solomon Islands, and Tokelau."
+      - value: "8"
+        label: "Achieved validation of elimination"
+        text: "As of 2024, eight PacELF countries have achieved validation of elimination since the start of the programme; Vanuatu, Republic of the Marshall Islands, Niue, Cook Islands, Tonga, Palau, Wallis & Futuna, and Kiribati."
+      - value: "8"
+        label: "Working toward eliimination"
+        text: "Conducting surveillance or mass drug administration; American Samoa, Federated States of Micronesia, Fiji, French Polynesia, Papua New Guinea, and Samoa."
+  - type: "feature"
+    title: "Pacific Programme for the Elimination of Lymphatic Filariasis"
     id: "our-research"
     eyebrow: "Focus"
-    style: "feature"
     image: "/assets/sample-images/tropical-research-landscape.jpg"
     image_alt: "Researchers surveying a tropical rainforest coastline"
     content: |
-      Introduce the central research problem, why it matters, and how the project responds. Keep this section short and outcome-focused so visitors quickly understand the purpose of the work.
-    link_text: "Read about the research"
-    link_url: "/project/"
-  - title: "In the media"
+      PacELF worked within the framework of the [Global Programme to Eliminate Filariasis](https://www.who.int/health-topics/lymphatic-filariasis#tab=tab_1), the [WHO Regional Office for the Western Pacific](https://www.who.int/westernpacific) and the [Division of Pacific Technical Support](https://www.who.int/westernpacific/about/how-we-work/pacific-support).
+
+      PacELF, the first regional filariasis elimination programme, formed in 1999 as a network to coordinate the efforts in the twenty-two island countries and territories that are working to eliminate filariasis in the Pacific. The elimination strategy has two pillars:
+
+      1. Annual mass drug administration (MDA) using diethylcarbamazine citrate (DEC), albendazole and/or ivermectin to stop transmission, and
+      2. Clinical management of infections and support to minimize progression of morbidity and disability in those individuals that are already infected.
+    link_text: "Read about Lymphatic Filariasis"
+    link_url: "https://www.who.int/health-topics/lymphatic-filariasis"
+  - type: "carousel"
+    eyebrow: "Gallery"
+    title: "Research in context"
+    lead: "Use the carousel for fieldwork images, project locations, lab work, community activities, or visual summaries."
+    items:
+      - image: "/assets/images/1996-conference-bali_processed.jpg"
+        image_alt: "Women in Bali carrying bundles of food on their heads in the traditional manner."
+        caption: "International conference on the Control of Lymphatic Filariasis - Bali 1996"
+      - image: "/assets/images/1996-conference-participants_scaled.jpg"
+        image_alt: "Bali 1996 conference participants"
+        caption: "Participants at the 1996 Bali international conference on the Control of Lymphatic Filariasis."
+      - image: "/assets/images/Dr-Ichimori-receiving-prize_2000x900.jpg"
+        image_alt: "Dr Ichimori receiving a prize"
+        caption: "DR Ichimori receiving the prize for XXXXXXXXXXX"
+  - type: "standard"
+    title: "In the media"
     eyebrow: "Coverage"
     cards:
       - title: "Research interview"
@@ -67,9 +73,9 @@ landing_sections:
         text: "Link to commentary, explainers, or media releases involving the project team."
         link_text: "Read commentary"
         url: "#"
-  - title: "Our projects"
+  - type: "feature"
+    title: "Our projects"
     eyebrow: "Activities"
-    style: "feature"
     cards:
       - title: "Field research"
         image: "/assets/sample-images/rainforest-fieldwork.jpg"
@@ -89,7 +95,8 @@ landing_sections:
         text: "Highlight engagement, training, co-design, or translation activities."
         link_text: "View project"
         url: "#"
-  - title: "Latest news"
+  - type: "standard"
+    title: "Latest news"
     eyebrow: "Updates"
     cards:
       - title: "Project milestone"
@@ -104,14 +111,15 @@ landing_sections:
         text: "Promote workshops, presentations, community sessions, or conferences."
         link_text: "Read more"
         url: "#"
-  - title: "Impacts"
+  - type: "highlight"
+    title: "Impacts"
     eyebrow: "Outcomes"
-    style: "highlight"
     content: |
       Explain the difference the research aims to make. This might include community benefit, environmental outcomes, policy influence, new methods, capability building, or improved decision-making.
     link_text: "See project impacts"
     link_url: "#"
-  - title: "Who we are"
+  - type: "standard"
+    title: "Who we are"
     eyebrow: "People"
     image_position: "left"
     image: "/assets/sample-images/research-team.jpg"
@@ -120,25 +128,26 @@ landing_sections:
       Introduce the project team, collaborators, students, advisory groups, or community partners. Link to a people page if the project has detailed profiles.
     link_text: "Meet the team"
     link_url: "#"
-  - title: "Contact us"
+  - type: "standard"
+    title: "Contact us"
     eyebrow: "Be contactable"
     content: |
       Add a clear route for enquiries from partners, participants, media, or community members.
     link_text: "Get in touch"
     link_url: "/contact/"
-partner_organisations:
-  eyebrow: "Partners"
-  title: "Partner organisations"
-  content: |
-    Recognise the organisations, funders, collaborators, and groups that make the project possible.
-  items:
-    - name: "James Cook University"
-      logo: "/assets/images/jcu-logo-colour.svg"
-      url: "https://www.jcu.edu.au/"
-    - name: "Partner organisation"
-      logo: "/assets/sample-images/partner-placeholder.svg"
-    - name: "Rainforest research partner"
-      logo: "/assets/sample-images/partner-rainforest.svg"
-    - name: "Reef research partner"
-      logo: "/assets/sample-images/partner-reef.svg"
+  - type: "partner-logos"
+    eyebrow: "Partners"
+    title: "Partner organisations"
+    content: |
+      Recognise the organisations, funders, collaborators, and groups that make the project possible.
+    items:
+      - name: "James Cook University"
+        logo: "/assets/images/jcu-logo-colour.svg"
+        url: "https://www.jcu.edu.au/"
+      - name: "Partner organisation"
+        logo: "/assets/sample-images/partner-placeholder.svg"
+      - name: "Rainforest research partner"
+        logo: "/assets/sample-images/partner-rainforest.svg"
+      - name: "Reef research partner"
+        logo: "/assets/sample-images/partner-reef.svg"
 ---
