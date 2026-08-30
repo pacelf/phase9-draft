@@ -29,9 +29,32 @@ blocks:
         label: "Working toward eliimination"
         text: "Conducting surveillance or mass drug administration; American Samoa, Federated States of Micronesia, Fiji, French Polynesia, Papua New Guinea, and Samoa."
   - type: "feature"
+    title: "PacELF Digital Library"
+    id: "library"
+    eyebrow: "What we do"
+    content: |
+      Our goal is to assist in achieving and documenting the elimination of lymphatic filariasis in the Pacific Region. We contribute to this by collating, synthesizing, and disseminating information on filariasis in the Pacific, in published or unpublished papers and reports, with a focus on the PacELF period from 1999 up to the end of 2020. The digital archive is supplemented by our collection of hard copy documents including the personal collection of Dr Kazuyo Ichimori, housed at James Cook University’s Bebegu Yumba Campus in the [WHO Collaborating Centre for Vectorborne and Neglected Tropical Diseases](https://www.jcu.edu.au/whocc-for-vector-borne-and-neglected-tropical-diseases) (AUS-174) in Townsville, Queensland, Australia.
+
+      Please refer to our Library on this site to consult and request the documents that have been catalogued to date. We scan hardcopy documents on request but some restricted documents containing personal information may only be consulted in person.
+
+      We also have many uncatalogued documents. Reach out if you wish to visit the archive in Townsville or would like help finding additional materials for a particular project. We appreciate hearing about projects for which library materials have been used.
+
+      We are very grateful to Dr Ichimori and James Cook University’s WHOCC, eResearch Centre, and Library for support, especially Kent Adams, Clair Meade, Alvaro Berg Soto, Peter Wood, Steve Vandervalk, Pauline Lawrey, Daniel Baird and many others. Thanks to our two interns, Sinead Rush and Jessica Scott and many other JCU volunteers for hours spent cataloguing and finding documents.
+    actions:
+      - label: "Explore the Library"
+        url: "/library/"
+      - label: "Reach out"
+        url: "/contact/"
+  - type: "standard"
+    title: "How the library started"
+    id: "the-start"
+    eyebrow: "History"
+    content: |
+      The initial work to set up the library in 2017 was supported by JCU, Nagasaki University and WHO Western Pacific Regional Office with a grant from the United States Agency for International Development (USAID) through NTD SC, a program of the Task Force for Global Health, Inc. Its contents are solely the responsibility of the authors and do not necessarily represent the views of the supporting institutions.  Funds from the Joan Lawler legacy have enabled the project to continue until 2026.
+  - type: "highlight"
     title: "Pacific Programme for the Elimination of Lymphatic Filariasis"
     id: "our-research"
-    eyebrow: "Focus"
+    eyebrow: "The PacELF Project"
     image: "/assets/sample-images/tropical-research-landscape.jpg"
     image_alt: "Researchers surveying a tropical rainforest coastline"
     content: |
@@ -136,18 +159,14 @@ blocks:
     link_text: "Get in touch"
     link_url: "/contact/"
   - type: "partner-logos"
-    eyebrow: "Partners"
-    title: "Partner organisations"
-    content: |
-      Recognise the organisations, funders, collaborators, and groups that make the project possible.
+    background: "primary"
+    eyebrow: "Supporters"
+    title: ""
+    background: "primary"
     items:
       - name: "James Cook University"
-        logo: "/assets/images/jcu-logo-colour.svg"
+        logo: "/assets/images/JCU Logo - Horizontal MONO REV.svg"
         url: "https://www.jcu.edu.au/"
       - name: "Partner organisation"
-        logo: "/assets/sample-images/partner-placeholder.svg"
-      - name: "Rainforest research partner"
-        logo: "/assets/sample-images/partner-rainforest.svg"
-      - name: "Reef research partner"
-        logo: "/assets/sample-images/partner-reef.svg"
+        logo: "/assets/images/who_logo_white.svg"
 ---
