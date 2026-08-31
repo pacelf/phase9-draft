@@ -2,6 +2,8 @@
   url: /
 - title: Project
   url: /project/
+- title: Library
+  url: /library/
 - title: Sample content styles
   url: /sample-content/
   children:

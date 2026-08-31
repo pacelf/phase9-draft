@@ -1,0 +1,86 @@
+{
+  "hideValues": ["", "n/a"],
+  "noFilter": [
+    "ID",
+    "Portal_Status",
+    "Title",
+    "Description",
+    "Authors",
+    "Volume/Issue",
+    "Pages",
+    "View_at_Publisher",
+    "PDF_file_name",
+    "URL",
+    "Icon"
+  ],
+  "quietFields": ["Portal_Status", "View_at_Publisher", "URL", "Icon"],
+  "quietLabel": "Additional details >",
+  "quietLabelFormat": "faded italic center smaller",
+  "maxResultCount": 200,
+  "iconTooltip": "Access_Rights",
+  "hideFromSearch": [
+    "Portal_Status",
+    "Category",
+    "Year",
+    "Volume/Issue",
+    "Pages",
+    "View_at_Publisher",
+    "Access_Rights",
+    "Language",
+    "PDF_file_name",
+    "URL",
+    "Icon"
+  ],
+  "supportText": "contact eResearch@jcu.edu.au if problems persist",
+  "fields": {
+    "Title": {
+      "display": "unlabeled header",
+      "format": "bold"
+    },
+    "Category": {
+      "filter": "category"
+    },
+    "Year": {
+      "filter": "category"
+    },
+    "Journal": {
+      "filter": "category"
+    },
+    "Publisher": {
+      "filter": "category"
+    },
+    "Work_Location": {
+      "filter": "category",
+      "multiOption": true
+    },
+    "Access_Rights": {
+      "filter": "category"
+    },
+    "Language": {
+      "filter": "category",
+      "multiOption": true
+    }
+  },
+
+  "font": "Tahoma, Inter, Arial, Helvetica, sans-serif",
+
+  "filterText": "#fff",
+  "filterColumnBackground": "#c10015",
+  "filterItemBackground": "#9E0012",
+  "filterActiveBackground": "#75000E",
+  "filterHighlightBackground": "#4D0009",
+
+  "dataText": "#fff",
+  "dataColumnBackground": "#273256",
+  "dataItemBackground": "#2b476f",
+  "dataActiveBackground": "#1e3c7d",
+  "dataHighlightBackground": "#00857a",
+
+  "interfaceText": "#111",
+  "interfaceBackground": "#e7f2eb",
+
+  "alertInfoText": "#037",
+  "alertInfoBackground": "#ecf6ff",
+  "alertErrorText": "#700",
+  "alertErrorBackground": "#fee"
+}

@@ -10,7 +10,7 @@ hero:
   image_alt: "Researchers surveying a tropical rainforest coastline"
   actions:
     - label: "Explore the library"
-      url: "#library"
+      url: "/library/"
     - label: "Contact us"
       url: "/contact/"
 blocks:
@@ -156,8 +156,9 @@ blocks:
     eyebrow: "Be contactable"
     content: |
       Add a clear route for enquiries from partners, participants, media, or community members.
-    link_text: "Get in touch"
-    link_url: "/contact/"
+    actions:
+      - label: "Contact us"
+        url: "/contact/"
   - type: "partner-logos"
     background: "primary"
     eyebrow: "Supporters"
