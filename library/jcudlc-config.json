@@ -1,5 +1,5 @@
 {
-  "hideValues": ["", "n/a"],
+  "hideValues": ["", "n/a", "NO_VALUE", "NO VALUE"],
   "noFilter": [
     "ID",
     "Portal_Status",
