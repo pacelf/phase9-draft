@@ -3,9 +3,9 @@ layout: full-width
 title: Home
 permalink: /
 hero:
-  eyebrow: "A WHO Collaborating Centre for Vectorborne and Neglected Tropical Diseases"
+  eyebrow: "A WHO Collaborating Centre for Vectorborne and Neglected Tropical Diseases Project"
   title: "The PacELF Endgame Project and Digital Library"
-  lead: "Our goal is to assist in achieving and documenting the elimination of lymphatic filariasis in the Pacific Region. At James Cook University (JCU), we collect, store, and facilitate access
+  lead: "Our goal is to assist in achieving the elimination of lymphatic filariasis in the Pacific Region. At James Cook University (JCU), we collect, store, and facilitate access
   to published and unpublished documents about the Pacific Program for the Elimination of Lymphatic
   Filariasis (PacELF) and the epidemiology of the disease in this region."
   image: "/assets/images/pacelf_logo.png"
@@ -17,19 +17,33 @@ hero:
       url: "/contact/"
 blocks:
   - type: "achievements"
-    eyebrow: "Achievements"
+    eyebrow: "PacELF Digital Library"
     title: "Progress at a glance"
     lead: ""
     items:
-      - value: "6"
-        label: "Classified as non endemic"
-        text: "PacELF countries classified as non endemic in 2000 were Guam, Nauru, Northern Mariana Islands, Pitcairn Island, Solomon Islands, and Tokelau."
-      - value: "8"
-        label: "Achieved validation of elimination"
-        text: "As of 2024, eight PacELF countries have achieved validation of elimination since the start of the programme; Vanuatu, Republic of the Marshall Islands, Niue, Cook Islands, Tonga, Palau, Wallis & Futuna, and Kiribati."
-      - value: "8"
-        label: "Working toward eliimination"
-        text: "Conducting surveillance or mass drug administration; American Samoa, Federated States of Micronesia, Fiji, French Polynesia, Papua New Guinea, and Samoa."
+      - value: ""
+        label: "March 2016"
+        text: "Started collecting and cataloguing
+        documents from former programme directors 
+        and researchers, James Cook University, 
+        and WHO offices in Fiji, Philippines, and Switzerland. 
+        "
+      - value: ""
+        label: "August 2017"
+        text: "First catalogue developed. 
+        Launched PacELF digital library website
+        for public access as Phase 1 with 271 
+        publications."
+      - value: ""
+        label: "2017-2026"
+        text: "Catalogued the Ichimori archive (hard-copies).
+        Made additions, corrections and cross-referenced 
+        duplicates through launches of Phases 2 to 8.  
+        Supplied documents and scans on user requests."
+      - value: ""
+        label: "October 2026"
+        text: "Revised the website and launched Phase 9
+        with 1819 documents."
   - type: "feature"
     title: "PacELF Digital Library"
     id: "library"
@@ -52,13 +66,11 @@ blocks:
     id: "the-start"
     eyebrow: "History"
     content: |
-      The initial work to set up the library in 2017 was supported by JCU, Nagasaki University and WHO Western Pacific Regional Office with a grant from the United States Agency for International Development (USAID) through NTD SC, a program of the Task Force for Global Health, Inc. Its contents are solely the responsibility of the authors and do not necessarily represent the views of the supporting institutions.  Funds from the Joan Lawler legacy have enabled the project to continue until 2026.
+      Established in 2015, the library was initially funded by the United States Agency for International Development (USAID) through NTD SC, a program of The Task Force for Global Health, Inc. The funding supported a partnership between James Cook University (JCU), Nagasaki University, and the WHO Regional Office for the Western Pacific. Subsequent support from the Joan Lawler legacy in 2020, combined with substantial volunteer effort, allowed the project to continue until 2026. The library is now supported by the JCU WHO Collaborating Centre for Vector-borne and Neglected Tropical Diseases.
   - type: "highlight"
     title: "Pacific Programme for the Elimination of Lymphatic Filariasis"
     id: "our-research"
     eyebrow: "The PacELF Project"
-    image: "/assets/sample-images/tropical-research-landscape.jpg"
-    image_alt: "Researchers surveying a tropical rainforest coastline"
     content: |
       PacELF worked within the framework of the [Global Programme to Eliminate Filariasis](https://www.who.int/health-topics/lymphatic-filariasis#tab=tab_1), the [WHO Regional Office for the Western Pacific](https://www.who.int/westernpacific) and the [Division of Pacific Technical Support](https://www.who.int/westernpacific/about/how-we-work/pacific-support).
 
@@ -68,96 +80,95 @@ blocks:
       2. Clinical management of infections and support to minimize progression of morbidity and disability in those individuals that are already infected.
     link_text: "Read about Lymphatic Filariasis"
     link_url: "https://www.who.int/health-topics/lymphatic-filariasis"
-  - type: "carousel"
-    eyebrow: "Gallery"
-    title: "Research in context"
-    lead: "Use the carousel for fieldwork images, project locations, lab work, community activities, or visual summaries."
+  - type: "achievements"
+    eyebrow: "PacELF Project"
+    title: "Progress at a glance"
+    lead: ""
     items:
-      - image: "/assets/images/1996-conference-bali_processed.jpg"
-        image_alt: "Women in Bali carrying bundles of food on their heads in the traditional manner."
-        caption: "International conference on the Control of Lymphatic Filariasis - Bali 1996"
-      - image: "/assets/images/1996-conference-participants_scaled.jpg"
-        image_alt: "Bali 1996 conference participants"
-        caption: "Participants at the 1996 Bali international conference on the Control of Lymphatic Filariasis."
-      - image: "/assets/images/Dr-Ichimori-receiving-prize_2000x900.jpg"
-        image_alt: "Dr Ichimori receiving a prize"
-        caption: "DR Ichimori receiving the prize for XXXXXXXXXXX"
+      - value: ""
+        label: ""
+        text: "In 2000, six PacELF member countries and territories were classified as non-endemic for lymphatic filariasis: Guam, Nauru, the Northern Mariana Islands, Pitcairn Island, Solomon Islands, and Tokelau.
+        "
+      - value: ""
+        label: ""
+        text: "The remaining 16 endemic countries and territories entered the PacELF elimination programme. Since then, significant progress has been made, with some countries achieving elimination and others moving steadily towards that goal.
+        "
+      - value: ""
+        label: ""
+        text: "As of 2026, eight PacELF countries and territories have been validated by the World Health Organization as having eliminated lymphatic filariasis as a public health problem: Cook Islands, Kiribati, Niue, Palau, Republic of the Marshall Islands, Tonga, Vanuatu, Wallis and Futuna.
+        "
+      - value: ""
+        label: ""
+        text: "The remaining endemic countries and territories continue to conduct surveillance activities and, where required, mass drug administration: American Samoa, Federated States of Micronesia, Fiji, French Polynesia, New Caledonia, Papua New Guinea, Samoa, Tuvalu.
+        "  
+      - value: ""
+        label: ""
+        text: "Several Pacific countries have also adopted triple-drug therapy, adding ivermectin to standard mass drug administration regimens to accelerate progress towards elimination.
+        "  
+  - type: "carousel"
+    eyebrow: ""
+    title: ""
+    lead: ""
+    items:
+      - image: "/assets/images/2000_Countres and prevalence_3174x1900.jpg"
+        image-alt: "Map showing countries and prevalence in 2000"
+      - image: "/assets/images/2020_Countres and prevalence_3174x1900.jpg"
+        image_alt: "Map showing countries and prevalence in 2020"
+  - type: "standard"
+    title: "PacELF Publications"
+    id: ""
+    eyebrow: "Outputs"
+    content: |
+      Progress by country with links to a bibliography of published literature from 1970 to mid 2017 is summarized in the following articles in a special issue of Tropical Medicine and Health in 2017 edited by Masahiro Hashizume and Peter Wood:
+      - [https://www.biomedcentral.com/collections/Filariasis](https://www.biomedcentral.com/collections/Filariasis)
+      - [https://tropmedhealth.biomedcentral.com/articles/10.1186/s41182-017-0075-4](https://tropmedhealth.biomedcentral.com/articles/10.1186/s41182-017-0075-4)
+  - type: "standard"
+    title: "PacELF Books"
+    id: ""
+    eyebrow: "Outputs"
+    image: "/assets/images/PacELF-books_processed.jpg"
+    image_alt: "The front covers of the 2 books described."
+    content: |
+      Two key publications provide valuable context for the PacELF programme and the resources held in this library.
+
+      **The PacELF Way** (WHO, 2006) documents the progress of lymphatic filariasis elimination efforts across the Pacific and references many of the publications now archived in the PacELF Digital Library.
+
+      **The PacELF Collection** (2023), *The PacELF Collection: PacELF Scientific Papers and Dr Kazuyo Ichimori’s Contribution in Commemoration of the Yomiuri International Cooperation Prize 2022*, includes an updated bibliography of Pacific lymphatic filariasis literature published between 1999 and 2020. Printed copies are available on request.
+
   - type: "standard"
     title: "In the media"
     eyebrow: "Coverage"
     cards:
-      - title: "Research interview"
-        text: "A short summary of a media story, radio interview, podcast episode, or public event."
-        link_text: "View story"
-        url: "#"
-      - title: "Community update"
-        text: "Highlight a news article or public communication that explains the project in plain language."
-        link_text: "View update"
-        url: "#"
-      - title: "Expert commentary"
-        text: "Link to commentary, explainers, or media releases involving the project team."
-        link_text: "Read commentary"
-        url: "#"
-  - type: "feature"
-    title: "Our projects"
-    eyebrow: "Activities"
-    cards:
-      - title: "Field research"
-        image: "/assets/sample-images/rainforest-fieldwork.jpg"
-        image_alt: "Researchers collecting water samples in a rainforest creek"
-        text: "Describe a project stream, study site, work package, or research activity."
-        link_text: "View project"
-        url: "#"
-      - title: "Data and analysis"
-        image: "/assets/sample-images/laboratory-analysis.jpg"
-        image_alt: "Researchers analysing environmental samples in a laboratory"
-        text: "Show how evidence is gathered, analysed, interpreted, and shared."
-        link_text: "View project"
-        url: "#"
-      - title: "Knowledge exchange"
-        image: "/assets/sample-images/community-workshop.jpg"
-        image_alt: "Researchers and community partners discussing a map"
-        text: "Highlight engagement, training, co-design, or translation activities."
-        link_text: "View project"
-        url: "#"
-  - type: "standard"
-    title: "Latest news"
-    eyebrow: "Updates"
-    cards:
-      - title: "Project milestone"
-        text: "Add a short update about recent progress, events, outputs, or fieldwork."
-        link_text: "Read more"
-        url: "#"
-      - title: "New publication"
-        text: "Use this card for papers, reports, datasets, or other research outputs."
-        link_text: "Read more"
-        url: "#"
-      - title: "Upcoming activity"
-        text: "Promote workshops, presentations, community sessions, or conferences."
-        link_text: "Read more"
-        url: "#"
-  - type: "highlight"
-    title: "Impacts"
-    eyebrow: "Outcomes"
-    content: |
-      Explain the difference the research aims to make. This might include community benefit, environmental outcomes, policy influence, new methods, capability building, or improved decision-making.
-    link_text: "See project impacts"
-    link_url: "#"
+      - title: "AITHM News Feature (2022)"
+        text: "On 28 September 2022, the Australian Institute of Tropical Health and Medicine (AITHM) published an article, *The Road to Freedom from Lymphatic Filariasis*, highlighting the history and impact of the PacELF Digital Library. The article was subsequently reproduced in the AITHM Annual Report 2022 (p. 23)."
+        link_text: "View article"
+        url: "https://www.jcu.edu.au/__data/assets/pdf_file/0011/2337635/AITHM-report-2022.pdf"
+      - title: "A Guide to Mosquitoes in the Pacific (2025)"
+        text: "The PacELF Digital Library provided references and full-text publications for *A Guide to Mosquitoes in the Pacific*, authored by James Cook University researchers Tanya Russell and Tom Burkot. The guide serves as a key reference for researchers, public health practitioners, and vector control programmes working to reduce mosquito-borne diseases, including lymphatic filariasis, across the Pacific region.
+        "
+        link_text: "About the guide (includes a link to the guide)"
+        url: "https://www.jcu.edu.au/AITHM/news-and-media/stories/aithm-research-stories/plotting-the-path-of-mosquito-species-in-the-pacific"
+      - title: "WHO Collaborating Centre Recertification (2026)"
+        text: "In March 2026, James Cook University was recertified as a World Health Organization Collaborating Centre for Vector-borne and Neglected Tropical Diseases for a further four-year term."
+        link_text: "View article"
+        url: "https://www.jcu.edu.au/news/releases/2026/march/jcu-re-designated-as-who-collaborating-centre-for-tropical-disease-control"
+      - title: "Dr Kazuyo Ichimori's Book (2026)"
+        text: "In 2026, Dr Kazuyo Ichimori published a new book in Japanese that drew on resources held in the PacELF Digital Library. The library team also contributed to the English translation, titled *Another Battle Against Infectious Diseases: The WHO's Challenge to Lymphatic Filariasis*. The Japanese edition is available in hard copy through the PacELF Library, and the English translation is available as a digital document."
+        link_text:
+        url:
   - type: "standard"
     title: "Who we are"
     eyebrow: "People"
-    image_position: "left"
-    image: "/assets/sample-images/research-team.jpg"
-    image_alt: "A diverse research team at a tropical field station"
     content: |
       Introduce the project team, collaborators, students, advisory groups, or community partners. Link to a people page if the project has detailed profiles.
-    link_text: "Meet the team"
-    link_url: "#"
+      - [Patricia Graves](https://portfolio.jcu.edu.au/researchers/patricia.graves)
+      - [Maria Castellanos Reynosa](https://portfolio.jcu.edu.au/researchers/maria.castellanosreynosa)
+      - [Jessica Scott](https://portfolio.jcu.edu.au/researchers/jessica.scott2)
+      - [Dr Ichimori](https://www.researchgate.net/scientific-contributions/Kazuyo-Ichimori-64347430)
   - type: "standard"
-    title: "Contact us"
-    eyebrow: "Be contactable"
+    title: "Want more information?"
+    eyebrow: ""
     content: |
-      Add a clear route for enquiries from partners, participants, media, or community members.
     actions:
       - label: "Contact us"
         url: "/contact/"

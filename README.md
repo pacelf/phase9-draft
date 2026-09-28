@@ -6,7 +6,7 @@ This is a starter site for the JCU research website theme. It uses the theme as 
 
 1. Rename this repository for your project.
 2. Update `title`, `description`, `url`, and `baseurl` in `_config.yml`.
-3. Edit `index.md`, `project.md`, and `contact.md`.
+3. Edit `index.md` and `contact.md`.
 4. Update `_data/navigation.yml` when you add or remove pages.
 
 ## Theme settings
