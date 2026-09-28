@@ -3,9 +3,11 @@ layout: full-width
 title: Home
 permalink: /
 hero:
-  eyebrow: "A WHO Collaborating Centre for Vectorborne and Neglected Tropical Diseases project project"
+  eyebrow: "A WHO Collaborating Centre for Vectorborne and Neglected Tropical Diseases"
   title: "The PacELF Endgame Project and Digital Library"
-  lead: "Our goal is to assist in achieving and documenting the elimination of lymphatic filariasis in the Pacific Region."
+  lead: "Our goal is to assist in achieving and documenting the elimination of lymphatic filariasis in the Pacific Region. At James Cook University (JCU), we collect, store, and facilitate access
+  to published and unpublished documents about the Pacific Program for the Elimination of Lymphatic
+  Filariasis (PacELF) and the epidemiology of the disease in this region."
   image: "/assets/images/pacelf_logo.png"
   image_alt: "Researchers surveying a tropical rainforest coastline"
   actions:

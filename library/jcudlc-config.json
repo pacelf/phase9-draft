@@ -1,4 +1,10 @@
 {
+  "project": "JCUDLC - JCU Digital Library Catalogue",
+  "version": "0.5.1",
+  "copyright": "copyright (c) James Cook University",
+
+  "dataUrl": "jcudlc-data.json",
+
   "hideValues": ["", "n/a", "NO_VALUE", "NO VALUE"],
   "noFilter": [
     "ID",
@@ -13,7 +19,17 @@
     "URL",
     "Icon"
   ],
-  "quietFields": ["Portal_Status", "View_at_Publisher", "URL", "Icon"],
+  "titleFields": ["Title"],
+  "titleFormat": "bold unlabelled",
+  "subtitleFields": ["Authors"],
+  "subtitleFormat": "italic",
+  "quietFields": [
+    "Portal_Status",
+    "View_at_Publisher",
+    "URL",
+    "Icon",
+    "PDF_file_name"
+  ],
   "quietLabel": "Additional details >",
   "quietLabelFormat": "faded italic center smaller",
   "maxResultCount": 200,
@@ -32,35 +48,8 @@
     "Icon"
   ],
   "supportText": "contact eResearch@jcu.edu.au if problems persist",
-  "fields": {
-    "Title": {
-      "display": "unlabeled header",
-      "format": "bold"
-    },
-    "Category": {
-      "filter": "category"
-    },
-    "Year": {
-      "filter": "category"
-    },
-    "Journal": {
-      "filter": "category"
-    },
-    "Publisher": {
-      "filter": "category"
-    },
-    "Work_Location": {
-      "filter": "category",
-      "multiOption": true
-    },
-    "Access_Rights": {
-      "filter": "category"
-    },
-    "Language": {
-      "filter": "category",
-      "multiOption": true
-    }
-  },
+
+  "aliases": { "PDF_file_name": "PDF" },
 
   "font": "Tahoma, Inter, Arial, Helvetica, sans-serif",
 
