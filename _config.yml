@@ -23,9 +23,7 @@ defaults:
 # Leave these commented to use the theme defaults. Uncomment only the settings you want to change.
 #
 theme_settings:
-#   show_breadcrumbs: true
-#   logo: "/assets/images/jcu-logo-mono.svg"
-#   logo_alt: "James Cook University"
+  #   show_breadcrumbs: true
   favicon: "/assets/images/app-logo-128x128.png"
   project_logo: "/assets/images/pacelf_logo.png"
   project_logo_alt: "PacELF logo"
@@ -34,10 +32,10 @@ theme_settings:
   primary_color: "#c10015"
   secondary_color: "#273256"
   accent_color: "#00857A"
-#   text_color: "#344054"
-#   heading_color: "#344054"
-#   muted_text_color: "#667085"
-#   background_color: "#FFFFFF"
+  #   text_color: "#344054"
+  #   heading_color: "#344054"
+  #   muted_text_color: "#667085"
+  #   background_color: "#FFFFFF"
   surface_color: "#FFFFFF"
 #   border_color: "#D0D5DD"
 #   table_banded_rows: true
