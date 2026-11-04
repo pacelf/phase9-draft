@@ -3,7 +3,7 @@ description: "Our goal is to assist in achieving and documenting the elimination
 url: "https://pacelf.github.io"
 baseurl: "/phase9-draft"
 
-remote_theme: jcu-eresearch/jcu-research-website-theme
+remote_theme: jcu-eresearch/jcu-research-website-theme@v1.1.0
 
 plugins:
   - jekyll-remote-theme
@@ -31,6 +31,8 @@ theme_settings:
   heading_font_family: "Tahoma, Inter, Arial, Helvetica, sans-serif"
   primary_color: "#c10015"
   secondary_color: "#273256"
+  secondary_text_color: "#FFFFFF"
+  secondary_link_color: "#FFFFFF"
   accent_color: "#00857A"
   #   text_color: "#344054"
   #   heading_color: "#344054"

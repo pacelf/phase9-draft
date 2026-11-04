@@ -1,5 +1,5 @@
 ---
-layout: full-width
+layout: landing-page
 title: Home
 permalink: /
 hero:
@@ -9,7 +9,8 @@ hero:
   to published and unpublished documents about the Pacific Program for the Elimination of Lymphatic
   Filariasis (PacELF) and the epidemiology of the disease in this region."
   image: "/assets/images/pacelf_logo.png"
-  image_alt: "Researchers surveying a tropical rainforest coastline"
+  image_alt: "PacELF logo"
+  image_fit: contain
   actions:
     - label: "Explore the library"
       url: "/library/"
@@ -44,7 +45,8 @@ blocks:
         label: "October 2026"
         text: "Revised the website and launched Phase 9
         with 1819 documents."
-  - type: "feature"
+  - type: "standard"
+    background: "primary"
     title: "PacELF Digital Library"
     id: "library"
     eyebrow: "What we do"
@@ -67,7 +69,8 @@ blocks:
     eyebrow: "History"
     content: |
       Established in 2015, the library was initially funded by the United States Agency for International Development (USAID) through NTD SC, a program of The Task Force for Global Health, Inc. The funding supported a partnership between James Cook University (JCU), Nagasaki University, and the WHO Regional Office for the Western Pacific. Subsequent support from the Joan Lawler legacy in 2020, combined with substantial volunteer effort, allowed the project to continue until 2026. The library is now supported by the JCU WHO Collaborating Centre for Vector-borne and Neglected Tropical Diseases.
-  - type: "highlight"
+  - type: "standard"
+    background: "secondary"
     title: "Pacific Programme for the Elimination of Lymphatic Filariasis"
     id: "our-research"
     eyebrow: "The PacELF Project"
@@ -106,12 +109,14 @@ blocks:
         text: "Several Pacific countries have also adopted triple-drug therapy, adding ivermectin to standard mass drug administration regimens to accelerate progress towards elimination.
         "  
   - type: "carousel"
+    image_shape: original
+    image_fit: contain
     eyebrow: ""
     title: ""
     lead: ""
     items:
       - image: "/assets/images/2000_Countres and prevalence_3174x1900.jpg"
-        image-alt: "Map showing countries and prevalence in 2000"
+        image_alt: "Map showing countries and prevalence in 2000"
       - image: "/assets/images/2020_Countres and prevalence_3174x1900.jpg"
         image_alt: "Map showing countries and prevalence in 2020"
   - type: "standard"
@@ -128,6 +133,8 @@ blocks:
     eyebrow: "Outputs"
     image: "/assets/images/PacELF-books_processed.jpg"
     image_alt: "The front covers of the 2 books described."
+    image_shape: original
+    image_fit: contain
     content: |
       Two key publications provide valuable context for the PacELF programme and the resources held in this library.
 
@@ -176,7 +183,6 @@ blocks:
     background: "primary"
     eyebrow: "Supporters"
     title: ""
-    background: "primary"
     items:
       - name: "James Cook University"
         logo: "/assets/images/JCU Logo - Horizontal MONO REV.svg"

@@ -1,42 +1,57 @@
 ---
 title: Configured colours
+card_title: "Configured colours"
+card_category: "Theme settings"
 permalink: /sample-content/configured-colours/
 order: 4
-image: "/assets/sample-images/card-green-turtle.svg"
+image: "/assets/sample-images/sample-configured-colours.svg"
 summary: "A visual reference for the colour settings configured in this theme."
 ---
 
-This page shows the colour values currently configured in `_config.yml`.
+This page shows the background colours and their matching text and link colours from `_config.yml`. Alert types have separate border, background, text, and link settings, shown below.
 
-{% assign colours = "primary_color:Primary colour:#005EB8,secondary_color:Secondary colour:#00857A,accent_color:Accent colour:#F6C643,text_color:Text colour:#344054,heading_color:Heading colour:#344054,muted_text_color:Muted text colour:#667085,background_color:Background colour:#FFFFFF,surface_color:Surface colour:#F8FAFC,secondary_background_color:Secondary background colour:#DCDAC3,border_color:Border colour:#D0D5DD" | split: "," %}
+{% assign colour_pairs = "primary:Primary:#354F52:#FFFFFF:#FFFFFF,secondary:Secondary:#C3D5C7:#354F52:#354F52,background:Background:#F4F6F3:#354F52:#354F52,surface:Surface:#FFFFFF:#354F52:#354F52,note:Note:#354F52:#354F52:#354F52,important:Important:#527C66:#354F52:#354F52,warning:Warning:#C83B35:#354F52:#922C27,caution:Caution:#A86A2B:#354F52:#75471A" | split: "," %}
+
+{% assign alert_types = "note,important,warning,caution" | split: "," %}
 
 <div class="colour-samples">
-  {% for colour_item in colours %}
-    {% assign colour_parts = colour_item | split: ":" %}
-    {% assign colour_key = colour_parts[0] %}
-    {% assign colour_label = colour_parts[1] %}
-    {% assign colour_default = colour_parts[2] %}
-    {% assign colour_value = site.theme_settings[colour_key] | default: colour_default %}
-    {% assign swatch_style = "background-color: " | append: colour_value | append: ";" %}
-    {% if colour_key == "secondary_background_color" %}
-      {% assign secondary_background_opacity = site.theme_settings.secondary_background_opacity | default: "0.5" %}
-      {% assign swatch_style = swatch_style | append: " opacity: " | append: secondary_background_opacity | append: ";" %}
+  {% for colour_pair in colour_pairs %}
+    {% assign parts = colour_pair | split: ":" %}
+    {% assign prefix = parts[0] %}
+    {% assign colour_key = prefix | append: "_color" %}
+    {% assign text_key = prefix | append: "_text_color" %}
+    {% assign link_key = prefix | append: "_link_color" %}
+    {% assign colour_value = site.theme_settings[colour_key] | default: parts[2] %}
+    {% assign text_value = site.theme_settings[text_key] | default: parts[3] %}
+    {% assign link_value = site.theme_settings[link_key] | default: parts[4] %}
+    {% assign display_colour_key = colour_key %}
+    {% assign display_colour_value = colour_value %}
+    {% if alert_types contains prefix %}
+      {% assign display_colour_key = prefix | append: "_background_color" %}
+      {% assign configured_background = site.theme_settings[display_colour_key] %}
+      {% capture display_colour_value %}{% if configured_background %}{{ configured_background }}{% else %}color-mix(in srgb, {{ colour_value }} 10%, #fff){% endif %}{% endcapture %}
     {% endif %}
-    <article class="colour-sample">
-      <div class="colour-swatch" style="{{ swatch_style }}"></div>
+    <article class="colour-sample colour-sample--pair" id="colour-{{ prefix }}">
+      <div class="colour-swatch colour-swatch--pair" style="background-color: {{ display_colour_value }}; color: {{ text_value }};">
+        <span>Sample text</span>
+        <a href="#how-these-colours-are-used" style="color: {{ link_value }};">How colours are used</a>
+      </div>
       <div class="colour-sample-body">
-        <h2>{{ colour_label }}</h2>
+        <h2>{{ parts[1] }} colours</h2>
         <dl>
-          <dt>Setting</dt>
-          <dd><code>{{ colour_key }}</code></dd>
+          <dt>Background</dt>
+          <dd><code>{{ display_colour_key }}</code></dd>
           <dt>Value</dt>
-          <dd><code>{{ colour_value }}</code></dd>
-          {% if colour_key == "secondary_background_color" %}
-            <dt>Opacity setting</dt>
-            <dd><code>secondary_background_opacity: {{ secondary_background_opacity }}</code></dd>
+          <dd><code>{{ display_colour_value }}</code></dd>
+          {% if alert_types contains prefix %}
+            <dt>Left border</dt>
+            <dd><code>{{ colour_key }}: {{ colour_value }}</code></dd>
           {% endif %}
+          <dt>Text</dt>
+          <dd><code>{{ text_key }}: {{ text_value }}</code></dd>
+          <dt>Link</dt>
+          <dd><code>{{ link_key }}: {{ link_value }}</code></dd>
         </dl>
-        <p style="color: {{ colour_value }};">Example text using {{ colour_label | downcase }}.</p>
       </div>
     </article>
   {% endfor %}
@@ -44,13 +59,10 @@ This page shows the colour values currently configured in `_config.yml`.
 
 ## How these colours are used
 
-- **Primary colour** is used for the sidebar background, page titles, standard links, breadcrumb links, page-card headings, Note alerts, and the hover state for heading permalink icons.
-- **Secondary colour** is used for link hover states, heading permalink icons, Tip alerts, Markdown table header backgrounds, and the muted internal lines and banded rows in Markdown tables.
-- **Accent colour** is used for page title underline rules, active navigation markers, accent block separators, Warning alerts, and `.jcu-block--accent` lines.
-- **Text colour** is used for standard body text, list text, and skip-link backgrounds.
-- **Heading colour** is used for most headings, definition-list terms, alert labels, and card or panel headings.
-- **Muted text colour** is used for breadcrumbs, supporting text, captions, card summaries, and less prominent labels.
-- **Background colour** is used for the main page panel and skip-link text.
-- **Surface colour** is used for card-style blocks, page cards, colour sample cards, column panels, generated gallery tiles, and other quiet UI surfaces.
-- **Secondary background colour** is used for pale highlighted sections such as `.jcu-block--coloured-bkgnd`, secondary front matter content blocks, and the band block separator style.
-- **Border colour** is used for panel borders, card borders, content block separators, colour sample dividers, and subtle structural lines.
+- **Primary** is used for the shared header, primary background bands, primary buttons, and structural rules.
+- **Secondary** is used for secondary background bands, coloured content blocks, and table headers.
+- **Background** is used for the main page and open content areas.
+- **Surface** is used for cards, panels, menus, and neutral buttons.
+- **Note, Important, Warning, and Caution** each have a configured background, left-border colour, and matching text and link colours. These settings are shared by YAML and Markdown alert blocks.
+
+`heading_color` controls headings on the normal page background, and `border_color` controls subtle borders. The older `text_color` setting remains a fallback for `background_text_color` in existing site configurations.
