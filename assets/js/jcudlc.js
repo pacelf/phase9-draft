@@ -1,14 +1,17 @@
-// JCUDLC - JCU Digital Library Catalogue - v0.5.1
+// JCUDLC - JCU Digital Library Catalogue - v0.5.2
 // copyright (c) James Cook University
 // globals ============================================== 
-const jcudlcVersion = '0.5.1'
+const jcudlcVersion = '0.5.2'
 console.log(`JCUDLC version ${jcudlcVersion}`)
 // ------------------------------------------------------ 
 const defaultTitleFields = ['header', 'title', 'name']
 const defaultTitleFormat = 'bold unlabelled'
 const defaultSubtitleFields = ['author', 'authors', 'editors']
 const defaultSubtitleFormat = 'italic'
+const defaultSeparator = ' ⧸ ' // ⧸ is a U+29F8, Big Solidus
+const defaultSeparatorFormat = 'faded'
 const defaultMaxResultCount = 100
+const defaultFontFamily = 'inherit'
 let config = {}
 let allFields = []
 let allItems = []
@@ -33,9 +36,18 @@ configLoader.then( (cfgResponse) => {
             reportProgress('parsing data...')
             let itemParser = itemResponse.json()
             itemParser.then( (items) => {
-                reportProgress('preparing page...')
                 // here we have the items loaded from the JSON file
-                allItems = items
+                reportProgress('preparing data...')
+                allItems = items.map( i => {
+                    // turn every item value into an array if it isn't already
+                    Object.keys(i).forEach( key => {
+                        if (!Array.isArray(i[key])) {
+                            i[key] = [i[key]]
+                        }
+                    })
+                    return i
+                })
+                reportProgress('preparing page...')
                 applyConfig()
                 buildFilters()
                 applyFilters()
@@ -85,15 +97,29 @@ function findUsefulField(item, fieldId) {
 function makeField(fieldId, fieldValue, format) {
 
     // if the value is a hideValue, then return nothing
-    if (config.hideValues.includes(fieldValue)) return ''
+    if (config.hideValues.includes(fieldValue) ||
+        (Array.isArray(fieldValue) && fieldValue.length === 0)) return ''
+
+    // check config for separator choices
+    let separatorString = config.separator || defaultSeparator
+    let separatorFormat = config.separatorFormat || defaultSeparatorFormat
 
     let field
     let className = ['field', format].join(' ')
-
+    let separator = makeNode('span', separatorFormat, separatorString)
+    
     // label is the override from the config, or the fieldId with underscores replaced by spaces
     label = getFieldLabel(fieldId)
     let fieldLabel = makeNode('dt', 'fieldLabel', label)
-    let fieldContent = makeNode('dd', 'fieldValue', fieldValue)
+
+    content = []
+    fieldValue.forEach( (val, index) => {
+        if (index > 0) {
+            content.push(separator.cloneNode(true))
+        }
+        content.push(val)
+    })
+    let fieldContent = makeNode('dd', 'fieldValue', ...content)
     field = makeNode('dl', className, fieldLabel, fieldContent)
     return field
 }
@@ -157,7 +183,8 @@ function removeFilter(value, field) {
 // 
 function applyConfig() {
     const styles = new CSSStyleSheet()
-    // if there are colours speficied in the config, write them into the page
+    // if there are colours and other css-level values 
+    // speficied in the config, write them into the page
     ;[
         ['filterText', '--jcudlc-filter-text'],
         ['filterColumnBackground', '--jcudlc-filter-bg'],
@@ -178,6 +205,8 @@ function applyConfig() {
         ['alertInfoBackground', '--jcudlc-message-good-bg'],
         ['alertErrorText', '--jcudlc-message-bad-text'],
         ['alertErrorBackground', '--jcudlc-message-bad-bg'],
+
+        ['font', '--jcudlc-font-family'],
     ].forEach( ([configKey, cssVarName]) => {
         if (config[configKey]) {
             applyCssVar(styles, cssVarName, config[configKey])
@@ -314,6 +343,7 @@ function buildFilter(fieldId) {
             fieldValue = [fieldValue]
         }
         fieldValue.forEach( val => {
+            if (config.hideValues.includes(val)) return
             if (!domain.includes(val)) {
                 domain.push(val)
             }
@@ -324,6 +354,8 @@ function buildFilter(fieldId) {
         // TODO: does this need to handle "both empty"?
         if (config.hideValues.includes(a)) return -1
         if (config.hideValues.includes(b)) return 1
+        // if they're numbers, standard compare
+        if (isFinite(a) && isFinite(b)) return a - b
         // otherwise sort alphabetically
         return a.localeCompare(b)
     })
@@ -455,7 +487,7 @@ function applyFilters() {
                     }
 
                     // if the string search is in an item's field value, keep it
-                    if (itemValues.some( val => val.toLowerCase().includes(s) )) {
+                    if (itemValues.some( val => val.toString().toLowerCase().includes(s) )) {
                         return true
                     }
                 }
