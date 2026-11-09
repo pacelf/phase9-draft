@@ -44,7 +44,7 @@ blocks:
       - value: ""
         label: "October 2026"
         text: "Revised the website and launched Phase 9
-        with 1752 documents."
+        with 1751 documents."
   - type: "standard"
     background: "primary"
     title: "PacELF Digital Library"
