@@ -148,8 +148,8 @@ blocks:
     cards:
       - title: "Dr Kazuyo Ichimori's Book (2026)"
         text: "In 2026, Dr Kazuyo Ichimori published a new book in Japanese that drew on resources held in the PacELF Digital Library. The library team also contributed to the English translation, titled *Another Battle Against Infectious Diseases: The WHO's Challenge to Lymphatic Filariasis*. The Japanese edition is available in hard copy through the PacELF Library, and the English translation is available as a digital document."
-        link_text:
-        url:
+        link_text: "Read the English translation (PDF)"
+        url: "/library/documents/PacELF_3637_Ichimori_2026_book_Final_pdf_GPELF_English_20260801.pdf"
       - title: "WHO Collaborating Centre Recertification (2026)"
         text: "In March 2026, James Cook University was recertified as a World Health Organization Collaborating Centre for Vector-borne and Neglected Tropical Diseases for a further four-year term."
         link_text: "View article"
@@ -168,12 +168,11 @@ blocks:
     title: "Who we are"
     eyebrow: "People"
     content: |
-      Introduce the project team, collaborators, students, advisory groups, or community partners. Link to a people page if the project has detailed profiles.
       - [Patricia Graves](https://portfolio.jcu.edu.au/researchers/patricia.graves)
       - [Maria Castellanos Reynosa](https://portfolio.jcu.edu.au/researchers/maria.castellanosreynosa)
       - [Jessica Scott](https://portfolio.jcu.edu.au/researchers/jessica.scott2)
       - [Kazuyo Ichimori](kazuyo-ichimori)
-#      - [Kazuyo Ichimori](https://www.researchgate.net/scientific-contributions/Kazuyo-Ichimori-64347430)
+
   - type: "standard"
     title: "Want more information?"
     eyebrow: ""
@@ -189,6 +188,6 @@ blocks:
       - name: "James Cook University"
         logo: "/assets/images/JCU Logo - Horizontal MONO REV.svg"
         url: "https://www.jcu.edu.au/"
-      - name: "Partner organisation"
+      - name: "World Health Organisation"
         logo: "/assets/images/who_logo_white.svg"
 ---
