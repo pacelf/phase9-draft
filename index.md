@@ -113,7 +113,7 @@ blocks:
     image_fit: contain
     eyebrow: ""
     title: ""
-    lead: ""
+    lead: "Toggle between the 2 maps to see the change in country status from 2000 to 2020"
     items:
       - image: "/assets/images/2000_Countres and prevalence_3174x1900.jpg"
         image_alt: "Map showing countries and prevalence in 2000"
@@ -146,23 +146,24 @@ blocks:
     title: "In the media"
     eyebrow: "Coverage"
     cards:
-      - title: "AITHM News Feature (2022)"
-        text: "On 28 September 2022, the Australian Institute of Tropical Health and Medicine (AITHM) published an article, *The Road to Freedom from Lymphatic Filariasis*, highlighting the history and impact of the PacELF Digital Library. The article was subsequently reproduced in the AITHM Annual Report 2022 (p. 23)."
+      - title: "Dr Kazuyo Ichimori's Book (2026)"
+        text: "In 2026, Dr Kazuyo Ichimori published a new book in Japanese that drew on resources held in the PacELF Digital Library. The library team also contributed to the English translation, titled *Another Battle Against Infectious Diseases: The WHO's Challenge to Lymphatic Filariasis*. The Japanese edition is available in hard copy through the PacELF Library, and the English translation is available as a digital document."
+        link_text:
+        url:
+      - title: "WHO Collaborating Centre Recertification (2026)"
+        text: "In March 2026, James Cook University was recertified as a World Health Organization Collaborating Centre for Vector-borne and Neglected Tropical Diseases for a further four-year term."
         link_text: "View article"
-        url: "https://www.jcu.edu.au/__data/assets/pdf_file/0011/2337635/AITHM-report-2022.pdf"
+        url: "https://www.jcu.edu.au/news/releases/2026/march/jcu-re-designated-as-who-collaborating-centre-for-tropical-disease-control"
       - title: "A Guide to Mosquitoes in the Pacific (2025)"
         text: "The PacELF Digital Library provided references and full-text publications for *A Guide to Mosquitoes in the Pacific*, authored by James Cook University researchers Tanya Russell and Tom Burkot. The guide serves as a key reference for researchers, public health practitioners, and vector control programmes working to reduce mosquito-borne diseases, including lymphatic filariasis, across the Pacific region.
         "
         link_text: "About the guide (includes a link to the guide)"
         url: "https://www.jcu.edu.au/AITHM/news-and-media/stories/aithm-research-stories/plotting-the-path-of-mosquito-species-in-the-pacific"
-      - title: "WHO Collaborating Centre Recertification (2026)"
-        text: "In March 2026, James Cook University was recertified as a World Health Organization Collaborating Centre for Vector-borne and Neglected Tropical Diseases for a further four-year term."
+      - title: "AITHM News Feature (2022)"
+        text: "On 28 September 2022, the Australian Institute of Tropical Health and Medicine (AITHM) published an article, *The Road to Freedom from Lymphatic Filariasis*, highlighting the history and impact of the PacELF Digital Library. The article was subsequently reproduced in the AITHM Annual Report 2022 (p. 23)."
         link_text: "View article"
-        url: "https://www.jcu.edu.au/news/releases/2026/march/jcu-re-designated-as-who-collaborating-centre-for-tropical-disease-control"
-      - title: "Dr Kazuyo Ichimori's Book (2026)"
-        text: "In 2026, Dr Kazuyo Ichimori published a new book in Japanese that drew on resources held in the PacELF Digital Library. The library team also contributed to the English translation, titled *Another Battle Against Infectious Diseases: The WHO's Challenge to Lymphatic Filariasis*. The Japanese edition is available in hard copy through the PacELF Library, and the English translation is available as a digital document."
-        link_text:
-        url:
+        url: "https://www.jcu.edu.au/__data/assets/pdf_file/0011/2337635/AITHM-report-2022.pdf"
+
   - type: "standard"
     title: "Who we are"
     eyebrow: "People"
@@ -171,7 +172,8 @@ blocks:
       - [Patricia Graves](https://portfolio.jcu.edu.au/researchers/patricia.graves)
       - [Maria Castellanos Reynosa](https://portfolio.jcu.edu.au/researchers/maria.castellanosreynosa)
       - [Jessica Scott](https://portfolio.jcu.edu.au/researchers/jessica.scott2)
-      - [Dr Ichimori](https://www.researchgate.net/scientific-contributions/Kazuyo-Ichimori-64347430)
+      - [Kazuyo Ichimori](kazuyo-ichimori)
+#      - [Kazuyo Ichimori](https://www.researchgate.net/scientific-contributions/Kazuyo-Ichimori-64347430)
   - type: "standard"
     title: "Want more information?"
     eyebrow: ""
