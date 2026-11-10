@@ -6,7 +6,7 @@ hero:
   eyebrow: "A WHO Collaborating Centre for Vectorborne and Neglected Tropical Diseases Project"
   title: "The PacELF Endgame Project and Digital Library"
   lead: "Our goal is to assist in achieving the elimination of lymphatic filariasis in the Pacific Region. At James Cook University (JCU), we collect, store, and facilitate access
-  to published and unpublished documents about the Pacific Program for the Elimination of Lymphatic
+  to published and unpublished documents about the Pacific Programme for the Elimination of Lymphatic
   Filariasis (PacELF) and the epidemiology of the disease in this region."
   image: "/assets/images/pacelf_logo.png"
   image_alt: "PacELF logo"
@@ -42,7 +42,7 @@ blocks:
         duplicates through launches of Phases 2 to 8.  
         Supplied documents and scans on user requests."
       - value: ""
-        label: "October 2026"
+        label: "November 2026"
         text: "Revised the website and launched Phase 9
         with 1751 documents."
   - type: "standard"
@@ -51,7 +51,7 @@ blocks:
     id: "library"
     eyebrow: "What we do"
     content: |
-      Our goal is to assist in achieving and documenting the elimination of lymphatic filariasis in the Pacific Region. We contribute to this by collating, synthesizing, and disseminating information on filariasis in the Pacific, in published or unpublished papers and reports, with a focus on the PacELF period from 1999 up to the end of 2020. The digital archive is supplemented by our collection of hard copy documents including the personal collection of Dr Kazuyo Ichimori, housed at James Cook University’s Bebegu Yumba Campus in the [WHO Collaborating Centre for Vectorborne and Neglected Tropical Diseases](https://www.jcu.edu.au/whocc-for-vector-borne-and-neglected-tropical-diseases) (AUS-174) in Townsville, Queensland, Australia.
+      We collate, synthesize, and disseminate information on filariasis in the Pacific, in published or unpublished papers and reports, with a focus on the PacELF period from 1999 up to the end of 2020. The digital archive is supplemented by our collection of hard copy documents including the personal collection of Dr Kazuyo Ichimori, housed at James Cook University’s Bebegu Yumba Campus in the [WHO Collaborating Centre for Vectorborne and Neglected Tropical Diseases](https://www.jcu.edu.au/whocc-for-vector-borne-and-neglected-tropical-diseases) (AUS-174) in Townsville, Queensland, Australia.
 
       Please refer to our Library on this site to consult and request the documents that have been catalogued to date. We scan hardcopy documents on request but some restricted documents containing personal information may only be consulted in person.
 
@@ -68,7 +68,7 @@ blocks:
     id: "the-start"
     eyebrow: "History"
     content: |
-      Established in 2015, the library was initially funded by the United States Agency for International Development (USAID) through NTD SC, a program of The Task Force for Global Health, Inc. The funding supported a partnership between James Cook University (JCU), Nagasaki University, and the WHO Regional Office for the Western Pacific. Subsequent support from the Joan Lawler legacy in 2020, combined with substantial volunteer effort, allowed the project to continue until 2026. The library is now supported by the JCU WHO Collaborating Centre for Vector-borne and Neglected Tropical Diseases.
+      Established in 2015, the library was initially funded by the United States Agency for International Development (USAID) through NTD SC, a program of The Task Force for Global Health, Inc. The funding supported a partnership between James Cook University (JCU), Nagasaki University, and the WHO Regional Office for the Western Pacific. Subsequent support from the Joan Lawler legacy in 2020, combined with substantial volunteer effort, allowed the project to continue until 2026. The library is now supported by the [JCU WHO Collaborating Centre for Vector-borne and Neglected Tropical Diseases](https://www.jcu.edu.au/whocc-for-vector-borne-and-neglected-tropical-diseases).
   - type: "standard"
     background: "secondary"
     title: "Pacific Programme for the Elimination of Lymphatic Filariasis"
@@ -160,9 +160,9 @@ blocks:
         link_text: "About the guide (includes a link to the guide)"
         url: "https://www.jcu.edu.au/AITHM/news-and-media/stories/aithm-research-stories/plotting-the-path-of-mosquito-species-in-the-pacific"
       - title: "AITHM News Feature (2022)"
-        text: "On 28 September 2022, the Australian Institute of Tropical Health and Medicine (AITHM) published an article, *The Road to Freedom from Lymphatic Filariasis*, highlighting the history and impact of the PacELF Digital Library. The article was subsequently reproduced in the AITHM Annual Report 2022 (p. 23)."
+        text: "On 28 September 2022, the Australian Institute of Tropical Health and Medicine (AITHM) published an article, *The Road to Freedom from Lymphatic Filariasis*, highlighting the history and impact of the PacELF Digital Library."
         link_text: "View article"
-        url: "https://www.jcu.edu.au/__data/assets/pdf_file/0011/2337635/AITHM-report-2022.pdf"
+        url: "https://www.jcu.edu.au/AITHM/news-and-media/stories/aithm-research-stories/lymphatic-filariasis"
 
   - type: "standard"
     title: "Who we are"
