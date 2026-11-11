@@ -23,7 +23,7 @@ defaults:
 # Leave these commented to use the theme defaults. Uncomment only the settings you want to change.
 #
 theme_settings:
-  #   show_breadcrumbs: true
+  show_breadcrumbs: false
   favicon: "/assets/images/app-logo-128x128.png"
   project_logo: "/assets/images/pacelf_logo.png"
   project_logo_alt: "PacELF logo"

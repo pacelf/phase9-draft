@@ -57,6 +57,7 @@
         "PDF_file_name",
         "URL",
         "Icon",
+        "Note",
         "PDF"
     ],
     "hideFromSearch": [
@@ -71,6 +72,7 @@
         "PDF_file_name",
         "URL",
         "Icon",
+        "Note",
         "PDF"
     ]
 }
