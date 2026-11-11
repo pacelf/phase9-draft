@@ -17,9 +17,33 @@ hero:
     - label: "Contact us"
       url: "/contact/"
 blocks:
+  - type: "standard"
+    background: "primary"
+    title: "About the library"
+    id: "library"
+    eyebrow: "PacELF Digital Library"
+    content: |
+      We collect, organise, and share published and unpublished material on lymphatic filariasis in the Pacific, with a focus on the PacELF programme from 1999 to 2020. Our digital library is supported by a physical archive at James Cook University’s Bebegu Yumba Campus in Townsville, Australia. The archive includes Dr Kazuyo Ichimori’s personal collection and is housed in the [WHO Collaborating Centre for Vectorborne and Neglected Tropical Diseases](https://www.jcu.edu.au/whocc-for-vector-borne-and-neglected-tropical-diseases) (AUS-174).
+
+      Browse the Library to find catalogued documents and request copies. We can scan hard-copy material on request, although some documents containing personal information can only be consulted in person.
+
+      Our archive also contains material that has not yet been catalogued. Contact us if you would like to visit, need help finding resources, or are looking for material for a particular project. We welcome hearing how you have used the collection.
+    actions:
+      - label: "Explore the Library"
+        url: "/library/"
+      - label: "Reach out"
+        url: "/contact/"
+  - type: "standard"
+    title: "How the library started"
+    id: "the-start"
+    eyebrow: "PacELF Digital Library"
+    content: |
+      Established in 2015, the library was initially funded by the United States Agency for International Development (USAID) through NTD SC, a program of The Task Force for Global Health, Inc. The funding supported a partnership between James Cook University (JCU), Nagasaki University, and the WHO Regional Office for the Western Pacific. Subsequent support from the Joan Lawler legacy in 2020, combined with substantial volunteer effort, allowed the project to continue until 2026. The library is now supported by the [JCU WHO Collaborating Centre for Vector-borne and Neglected Tropical Diseases](https://www.jcu.edu.au/whocc-for-vector-borne-and-neglected-tropical-diseases).
+
+      We are very grateful to Dr Ichimori and James Cook University’s WHOCC, eResearch Centre, and Library for support, especially Kent Adams, Clair Meade, Alvaro Berg Soto, Peter Wood, Steve Vandervalk, Pauline Lawrey, Daniel Baird and many others. Thanks to our two interns, Sinead Rush and Jessica Scott and many other JCU volunteers for hours spent cataloguing and finding documents.      
   - type: "achievements"
     eyebrow: "PacELF Digital Library"
-    title: "History"
+    title: "Milestones"
     lead: ""
     items:
       - value: ""
@@ -45,30 +69,6 @@ blocks:
         label: "November 2026"
         text: "Revised the website and launched Phase 9
         with 1751 documents."
-  - type: "standard"
-    background: "primary"
-    title: "PacELF Digital Library"
-    id: "library"
-    eyebrow: "What we do"
-    content: |
-      We collate, synthesize, and disseminate information on filariasis in the Pacific, in published or unpublished papers and reports, with a focus on the PacELF period from 1999 up to the end of 2020. The digital archive is supplemented by our collection of hard copy documents including the personal collection of Dr Kazuyo Ichimori, housed at James Cook University’s Bebegu Yumba Campus in the [WHO Collaborating Centre for Vectorborne and Neglected Tropical Diseases](https://www.jcu.edu.au/whocc-for-vector-borne-and-neglected-tropical-diseases) (AUS-174) in Townsville, Queensland, Australia.
-
-      Please refer to our Library on this site to consult and request the documents that have been catalogued to date. We scan hardcopy documents on request but some restricted documents containing personal information may only be consulted in person.
-
-      We also have many uncatalogued documents. Reach out if you wish to visit the archive in Townsville or would like help finding additional materials for a particular project. We appreciate hearing about projects for which library materials have been used.
-
-      We are very grateful to Dr Ichimori and James Cook University’s WHOCC, eResearch Centre, and Library for support, especially Kent Adams, Clair Meade, Alvaro Berg Soto, Peter Wood, Steve Vandervalk, Pauline Lawrey, Daniel Baird and many others. Thanks to our two interns, Sinead Rush and Jessica Scott and many other JCU volunteers for hours spent cataloguing and finding documents.
-    actions:
-      - label: "Explore the Library"
-        url: "/library/"
-      - label: "Reach out"
-        url: "/contact/"
-  - type: "standard"
-    title: "How the library started"
-    id: "the-start"
-    eyebrow: "History"
-    content: |
-      Established in 2015, the library was initially funded by the United States Agency for International Development (USAID) through NTD SC, a program of The Task Force for Global Health, Inc. The funding supported a partnership between James Cook University (JCU), Nagasaki University, and the WHO Regional Office for the Western Pacific. Subsequent support from the Joan Lawler legacy in 2020, combined with substantial volunteer effort, allowed the project to continue until 2026. The library is now supported by the [JCU WHO Collaborating Centre for Vector-borne and Neglected Tropical Diseases](https://www.jcu.edu.au/whocc-for-vector-borne-and-neglected-tropical-diseases).
   - type: "standard"
     background: "secondary"
     title: "Pacific Programme for the Elimination of Lymphatic Filariasis"
@@ -152,6 +152,39 @@ blocks:
           In 2026, Dr Kazuyo Ichimori published a new book in Japanese that drew on resources held in the PacELF Digital Library. The library team also contributed to the English translation, titled *Another Battle Against Infectious Diseases: The WHO's Challenge to Lymphatic Filariasis*. The Japanese edition is available in hard copy through the PacELF Library, and the English translation is available as a digital document.
         link_text: "Read the English translation (PDF)"
         url: "/library/documents/PacELF_3637_Ichimori_2026_book_Final_pdf_GPELF_English_20260801.pdf"
+  - type: "standard"
+    title: "How researchers use the library"
+    id: "testimonials"
+    eyebrow: "Testimonials"
+    columns: 1
+    cards:
+      - title: "An archive for LF histories"
+        text: |
+          > I have used the library and find it most definitely useful. Specifically, I have relied on the library as an archive when mapping LF histories in the countries where I work. The library’s collection of grey literature (reports from WHO and other meetings) that are not accessible online has both supported and streamlined my research.
+
+          **Dr Adam Craig**<br>
+          University of Queensland<br>
+          <small>2 March 2026</small>
+      - title: "Documents that are difficult to find elsewhere"
+        text: |
+          > I have found the PacELF library immensely helpful.
+          >
+          > It is a resource of documents relevant to this region that are difficult to find elsewhere.
+          >
+          > In countries where I have worked previously hard copies are no longer possible to find. In addition the journals where relevant articles are published are often not prioritised for access through my normal university and hospital library affiliations.
+
+          **Dr Myra Hardy**<br>
+          Murdoch Children’s Research Institute<br>
+          <small>11 March 2026</small>
+      - title: "Supporting a research proposal"
+        text: |
+          > Thank you so much for your fast response. This will help immensely with my proposal.
+          >
+          > Thank you also for the additional document. This document happens to be exactly what my proposal is looking into: surveillance of the migrant population in Palau.
+
+          **Aaliya Palasara**<br>
+          University of Queensland<br>
+          <small>9 June 2026</small>
   - type: "standard"
     title: "In the media"
     eyebrow: "Coverage"
