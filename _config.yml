@@ -3,7 +3,7 @@ description: "Our goal is to assist in achieving and documenting the elimination
 url: "https://pacelf.github.io"
 baseurl: "/phase9-draft"
 
-remote_theme: jcu-eresearch/jcu-research-website-theme@v1.1.0
+remote_theme: jcu-eresearch/jcu-research-website-theme
 
 plugins:
   - jekyll-remote-theme

@@ -19,7 +19,7 @@ hero:
 blocks:
   - type: "achievements"
     eyebrow: "PacELF Digital Library"
-    title: "Progress at a glance"
+    title: "History"
     lead: ""
     items:
       - value: ""
@@ -85,7 +85,7 @@ blocks:
     link_url: "https://www.who.int/health-topics/lymphatic-filariasis"
   - type: "achievements"
     eyebrow: "PacELF Project"
-    title: "Progress at a glance"
+    title: "Progress toward elimination"
     lead: ""
     items:
       - value: ""
@@ -129,27 +129,33 @@ blocks:
       - [https://tropmedhealth.biomedcentral.com/articles/10.1186/s41182-017-0075-4](https://tropmedhealth.biomedcentral.com/articles/10.1186/s41182-017-0075-4)
   - type: "standard"
     title: "PacELF Books"
-    id: ""
-    eyebrow: "Outputs"
-    image: "/assets/images/PacELF-books_processed.jpg"
-    image_alt: "The front covers of the 2 books described."
+    id: "pacelf-books"
+    columns: 1
     image_shape: original
     image_fit: contain
-    content: |
-      Two key publications provide valuable context for the PacELF programme and the resources held in this library.
-
-      **The PacELF Way** (WHO, 2006) documents the progress of lymphatic filariasis elimination efforts across the Pacific and references many of the publications now archived in the PacELF Digital Library.
-
-      **The PacELF Collection** (2023), *The PacELF Collection: PacELF Scientific Papers and Dr Kazuyo Ichimori’s Contribution in Commemoration of the Yomiuri International Cooperation Prize 2022*, includes an updated bibliography of Pacific lymphatic filariasis literature published between 1999 and 2020. Printed copies are available on request.
-
+    image_max_height: "min(230px, 60vh)"
+    cards:
+      - title: "The PacELF Way"
+        image: "/assets/images/The-PacELF-Way_book-cover_processed_750x1000.jpg"
+        image_alt: "Cover of The PacELF Way"
+        text: |
+          **The PacELF Way** (WHO, 2006) documents the progress of lymphatic filariasis elimination efforts across the Pacific and references many of the publications now archived in the PacELF Digital Library.
+      - title: "The PacELF Collection"
+        image: "/assets/images/The-PacELF-Collection_book-cover_processed_761x1000.jpg"
+        image_alt: "Cover of The PacELF Collection"
+        text: |
+          **The PacELF Collection** (2023), *The PacELF Collection: PacELF Scientific Papers and Dr Kazuyo Ichimori’s Contribution in Commemoration of the Yomiuri International Cooperation Prize 2022*, includes an updated bibliography of Pacific lymphatic filariasis literature published between 1999 and 2020. Printed copies are available on request.
+      - title: "Dr Kazuyo Ichimori's Book (2026)"
+        image: "/assets/images/Ichimori_book-cover_processed_705x1000.jpg"
+        image_alt: "Cover of Dr Kazuyo Ichimori’s 2026 book"
+        text: |
+          In 2026, Dr Kazuyo Ichimori published a new book in Japanese that drew on resources held in the PacELF Digital Library. The library team also contributed to the English translation, titled *Another Battle Against Infectious Diseases: The WHO's Challenge to Lymphatic Filariasis*. The Japanese edition is available in hard copy through the PacELF Library, and the English translation is available as a digital document.
+        link_text: "Read the English translation (PDF)"
+        url: "/library/documents/PacELF_3637_Ichimori_2026_book_Final_pdf_GPELF_English_20260801.pdf"
   - type: "standard"
     title: "In the media"
     eyebrow: "Coverage"
     cards:
-      - title: "Dr Kazuyo Ichimori's Book (2026)"
-        text: "In 2026, Dr Kazuyo Ichimori published a new book in Japanese that drew on resources held in the PacELF Digital Library. The library team also contributed to the English translation, titled *Another Battle Against Infectious Diseases: The WHO's Challenge to Lymphatic Filariasis*. The Japanese edition is available in hard copy through the PacELF Library, and the English translation is available as a digital document."
-        link_text: "Read the English translation (PDF)"
-        url: "/library/documents/PacELF_3637_Ichimori_2026_book_Final_pdf_GPELF_English_20260801.pdf"
       - title: "WHO Collaborating Centre Recertification (2026)"
         text: "In March 2026, James Cook University was recertified as a World Health Organization Collaborating Centre for Vector-borne and Neglected Tropical Diseases for a further four-year term."
         link_text: "View article"
