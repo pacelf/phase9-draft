@@ -24,7 +24,8 @@
     "iconTooltip": "Access_Rights",
     "supportText": "contact eResearch@jcu.edu.au if problems persist",
     "aliases": {
-        "PDF_file_name": "PDF"
+        "PDF_file_name": "PDF",
+        "Access_Rights": "Access Method"
     },
     "hideValues": [
         ""
@@ -73,6 +74,7 @@
         "URL",
         "Icon",
         "Note",
-        "PDF"
+        "PDF",
+        "Access Method"
     ]
 }
