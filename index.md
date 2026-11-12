@@ -182,7 +182,7 @@ blocks:
           >
           > Thank you also for the additional document. This document happens to be exactly what my proposal is looking into: surveillance of the migrant population in Palau.
 
-          **Aaliya Palasara**<br>
+          Research Assistant<br>
           University of Queensland<br>
           <small>9 June 2026</small>
   - type: "standard"
