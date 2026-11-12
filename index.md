@@ -137,12 +137,14 @@ blocks:
     cards:
       - title: "The PacELF Way"
         image: "/assets/images/The-PacELF-Way_book-cover_processed_750x1000.jpg"
-        image_alt: "Cover of The PacELF Way"
+        image_alt: "Book cover for The PacELF Way"
+        url: https://iris.who.int/items/7ddd3bd1-43d7-4c98-9ba7-3491aa2dfc61
+        link_text: "Download a copy"
         text: |
           **The PacELF Way** (WHO, 2006) documents the progress of lymphatic filariasis elimination efforts across the Pacific and references many of the publications now archived in the PacELF Digital Library.
       - title: "The PacELF Collection"
         image: "/assets/images/The-PacELF-Collection_book-cover_processed_761x1000.jpg"
-        image_alt: "Cover of The PacELF Collection"
+        image_alt: "Book cover for The PacELF Collection"
         text: |
           **The PacELF Collection** (2023), *The PacELF Collection: PacELF Scientific Papers and Dr Kazuyo Ichimori’s Contribution in Commemoration of the Yomiuri International Cooperation Prize 2022*, includes an updated bibliography of Pacific lymphatic filariasis literature published between 1999 and 2020. Printed copies are available on request.
       - title: "Dr Kazuyo Ichimori's Book (2026)"
